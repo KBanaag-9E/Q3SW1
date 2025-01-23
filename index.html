@@ -21,27 +21,22 @@
 <div>
 
 	<script type="text/javascript">
-		document.write("<h1>₱100 Php to Dollar Converter</h1>");
+		document.write("<h1>₱100 Php Currency Converter</h1>");
 		document.write('<h3>₱100 Php</h3> <h3>to</h3>');
 	</script>
 
-	<h3 id="dollar">...</h3>
+	<h3 id="money">...</h3>
 	<div>
 		
 		<!-- ₱1 = $0.02719 -->
 		<button type="button" class="ms-3 btn btn-success" 
-		onclick="var php=100; var aud=0.02719;
-		document.getElementById('dollar').innerHTML = '$' + php*aud + ' AUD' ">Australian Dollar</button>
-
-		<!-- ₱1 = $0.0245 -->
-		<button type="button" class="ms-3 btn btn-success" 
-		onclick="var php=100; var cad=0.0245;
-		document.getElementById('dollar').innerHTML = '$' + php*cad + ' CAD' ">Canadian Dollar</button>
+		onclick="var php=100; var eur=0.0163797;
+		document.getElementById('money').innerHTML = '€' + php*eur + ' EUR' ">Australian Dollar</button>
 
 		<!-- ₱1 = $0.01706 -->
 		<button type="button" class="ms-3 btn btn-success" 
 		onclick="var php=100; var usd=0.01706;
-		document.getElementById('dollar').innerHTML = '$' + php*usd + ' USD' ">United States Dollar</button>
+		document.getElementById('money').innerHTML = '$' + php*usd + ' USD' ">United States Dollar</button>
 	</div>
 
 	<div>
@@ -55,7 +50,7 @@
 <div class="mt-6">
 	<script type="text/javascript">
 		document.write('<h3>Curreny Converter References</h3>');
-		document.write('<h5> <a href="https://www.xe.com/currencyconverter/convert/?Amount=100&From=PHP&To=AUD">AUD</a> <a href=https://www.xe.com/currencyconverter/convert/?Amount=1&From=PHP&To=CAD">CAD</a> <a href="https://www.xe.com/currencyconverter/convert/?Amount=100&From=PHP&To=USD">USD</a> </h5>');
+		document.write('<h5> <a href="https://www.xe.com/currencyconverter/convert/?Amount=100&From=PHP&To=EUR">EUR</a> <a href="https://www.xe.com/currencyconverter/convert/?Amount=100&From=PHP&To=USD">USD</a> </h5>');
 	</script>
 </div>
 
